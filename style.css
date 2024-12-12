@@ -1,0 +1,52 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5f0e1; /* Tan background */
+    color: #444;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0c999; /* Lighter tan for header */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #e0c999; /* Lighter tan for hero section */
+}
+
+.about, .portfolio, .resume {
+    padding: 20px;
+    background-color: #f5f0e1; /* Tan background for sections */
+}
+
+.portfolio .project {
+    margin-bottom: 20px;
+    border: 1px solid #888; /* Subtle border */
+    padding: 10px;
+}
+
+h1, h2, h3 {
+    color: #663300; /* Dark brown headings */
+}
+
+a {
+    color: #663300; /* Dark brown links */
+}
+img {
+    max-width: 50%;
+    height: auto;
+}
